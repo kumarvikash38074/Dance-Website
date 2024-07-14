@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Stylish&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Zen+Tokyo+Zoo&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#navbar {
+    background-color: aqua;
+    padding: 13px 14px;
+    font-family: "Stylish", serif;
+    display:flex;
+    align-items: center;
+}
+
+.logo-name{
+    font-family: "Zen Tokyo Zoo";
+    font-size: 30px;
+
+}
+
+#navbar ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin: 0px auto;
+
+}
+
+#navbar ul li a {
+    text-decoration: none;
+    padding: 23px 30px;
+    font-size: 20px;
+
+
+}
+
+#navbar ul li a:hover {
+    color: black;
+    font-size: x-large;
+
+
+
+}
+
+#introSection {
+    background: center/cover no-repeat url(../static/bg.jpg);
+    height: 470px;
+    font-family: "Zen Tokyo Zoo";
+    font-size: 75px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#introSection div.quote{
+    background: linear-gradient(to left,
+    violet,
+    indigo,
+    blue,
+    green,
+    yellow,
+    orange,
+    red);
+background-clip: text;
+color: transparent;
+font-size: 40px;
+text-shadow: 1px 1px 1px black;
+}
+
+#missionSection {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: auto;
+    background-color: lightblue;
+}
+
+#missionSection h2{
+    text-align: center;
+    padding: 50px 23px;
+    margin-bottom: 50px;
+    font-size: 60px;
+    color: #0404c6;
+}
+
+.box{
+    display: flex;
+    justify-content: space-around;
+    /* border: 2px solid greenyellow; */
+    height: 300px;
+
+}
+
+.container{
+    border: 2px solid #9a1fb2;
+    margin: 12px 12px;
+    text-align: center;
+    padding: 12px;
+    width: 20%;
+    border-radius: 10px;
+}
+
+.container h3{
+    font-size: 30px;
+    color: #0e2475;
+}
+
+.img{
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    margin: 17px auto;
+}
+
+.img p{
+    font-size: 19px;
+    color: #031457;
+}
+
+.img img{
+    height: 200px;
+    width: 200px;
+}
+
+#sponsorSection {
+    background-color: #352638;
+    height: auto;
+    padding-bottom: 50px;
+    color: white;
+    
+}
+
+#sponsorSection h3{
+    text-align: center;
+    padding: 50px 23px;
+    margin-bottom: 50px;
+    font-size: 60px;
+    color: #06a4ec;
+}
+
+.sponsors{
+    display: flex;
+    justify-content: space-around;
+}
+
+.sponsors img{
+    height: 250px;
+    width: 250px;
+    /* display: flex; */
+    border-radius: 50%;
+    filter: invert(1);
+}
+
+#footer {
+    background-color: rgb(1 2 1);
+    height: 50px;
+    width: 100%;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    bottom: 0px;
+    font-size: 20px;
+}

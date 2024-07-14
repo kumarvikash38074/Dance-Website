@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Stylish&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Zen+Tokyo+Zoo&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1::before{
+    content: "";
+    background: url(../static/bg-contact.jpg);
+    background-size: cover;
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+    z-index: -1;
+    top: 0;
+    left: 0;
+}
+
+h1{
+    text-align: center;
+    margin: 25px 0;
+    font-family: "Zen Tokyo Zoo";
+    font-size: 50px;
+    color: #1f0ce8;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.form-container{
+    min-height: 70vh; 
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.myInput{
+    width: 40%;
+    padding: 5px;
+    margin: 10px;
+    font-size: 15px;
+    border: 2px solid #727fda;
+    border-radius: 5px;
+    outline: none;
+
+}
+
+.btn{
+    margin-top: 25px;
+    padding: 8px 40px;
+    font-size: 18px;
+    border: 2px solid black;
+    border-radius: 5px;
+    color: white;
+    background-color: #9434a4;
+    cursor: pointer;
+    transition: background-color;
+    transition-duration: 0.7s;
+}
+
+.btn:hover{
+    background-color: #27473c;
+}
+
+#footer{
+    background-color: rgb(1 2 1);
+    height: 50px;
+    width: 100%;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    bottom: 0px;
+    font-size: 20px;
+    position: absolute;
+}
